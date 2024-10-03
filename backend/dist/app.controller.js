@@ -13,7 +13,6 @@ exports.WeatherController = void 0;
 const common_1 = require("@nestjs/common");
 let WeatherController = class WeatherController {
     getCurrentWeather() {
-        console.log("hello");
         const weatherData = this.generateWeatherData();
         return weatherData;
     }
